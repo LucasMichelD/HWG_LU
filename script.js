@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function() {
 
     // 1. Dynamische Begrüßung basierend auf der Tageszeit
@@ -12,17 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         greeting.textContent = 'Guten Abend! Willkommen auf der Website: Wichtige Links zur HWG LU';
     }
-
-    // 2. Dark Mode Toggle
-    const darkModeToggle = document.getElementById('darkModeToggle');
-    const body = document.body;
-    const links = document.querySelectorAll('a');
-
-    darkModeToggle.addEventListener('click', function() {
-        body.classList.toggle('dark-mode');
-        links.forEach(link => link.classList.toggle('dark-mode'));
-        darkModeToggle.textContent = body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
-    });
 
     // 3. Scroll-to-Section Animation
     const navLinks = document.querySelectorAll('a[href^="#"]');
