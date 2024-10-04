@@ -1,0 +1,64 @@
+/* Allgemeines Styling für den Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Farbgebung für verschiedene Sections */
+#sinn, #contact {
+    background-color: #e8f4f8;
+}
+
+#links {
+    background-color: #f1f1f1;
+}
+
+/* Überschriften Styling */
+h2 {
+    color: #2c3e50;
+    font-size: 1.5em;
+}
+
+/* Styling für Links */
+a {
+    color: #2980b9;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
