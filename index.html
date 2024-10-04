@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Wichtige Links zur HWG LU</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Verknüpfung mit dem CSS-Dokument -->
+    <link rel="stylesheet" href="styles.css"> <!-- Verknüpfung mit der CSS-Datei -->
 </head>
 <body>
 
     <header>
         <h1>Willkommen auf der Website: Wichtige Links zur HWG LU</h1>
+        <button id="darkModeToggle">Dark Mode</button> <!-- Dark Mode Button -->
     </header>
 
     <main>
@@ -34,9 +35,17 @@
         <section id="contact">
             <h2>Kontakt</h2>
             <p>Du kannst mich unter folgender E-Mail erreichen: 
-                <a href="mailto:lucas@denecken.com">lucas@denecken.com</a>.
+                <a id="contactLink" href="#">Kontakt anzeigen</a>.
             </p>
         </section>
+
+        <!-- Modal für Kontaktinformationen -->
+        <div id="contactModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Kontakt: <a href="mailto:lucas@denecken.com">lucas@denecken.com</a></p>
+            </div>
+        </div>
     </main>
 
     <footer>
